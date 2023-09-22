@@ -1,13 +1,1 @@
 <emu-js id='wfewf' ejsCore='nds' src="https://www.google.com/"></emu-js>
-<script>
-  var emu_js = document.getElementById("wfewf").outerHTML;
-
-  function emu_js_check(emu_js_property) {
-    var q = emu_js.slice(emu_js.indexOf(emu_js_property.toLowerCase()));
-    q = q.slice(q.indexOf('"') + 1, q.indexOf('"', q.indexOf('"') + 1));
-    return q
-    // will output the value
-  }
-  console.log(emu_js_check("ejsCore"));
-
-</script>
